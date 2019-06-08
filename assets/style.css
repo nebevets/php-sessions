@@ -1,0 +1,26 @@
+html{
+  background-color: grey;
+}
+body{
+  background-color: aliceblue;
+  font-family: sans-serif;
+  width: 75%;
+  padding: 1em;
+  margin: auto;
+}
+form {
+  background-color: whitesmoke;
+  border: 1px solid aquamarine;
+}
+input{
+  width: 20%;
+  padding: 1em;
+  background-color: aquamarine;
+  color: gray;
+  margin: 0.5em;
+}
+button{
+  border-radius: 5px;
+  font-size: 1em;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
