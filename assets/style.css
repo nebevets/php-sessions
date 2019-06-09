@@ -12,6 +12,14 @@ form {
   background-color: whitesmoke;
   border: 1px solid aquamarine;
 }
+label, input {
+  display: inline-block;
+}
+label{
+  width: 5%;
+  padding: 2% 0;
+  text-align: right;
+}
 input{
   width: 20%;
   padding: 1em;
