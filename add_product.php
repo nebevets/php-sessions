@@ -1,4 +1,5 @@
 <?php
+  session_start();
   $directory = 'products/';
   $output = [
     'success' => false
@@ -55,9 +56,11 @@
     $output['message'] = "new product, $product_name, added successfully";
   }
   if($output['success']){
-    header('location: index.php?msg=Successfully added product');
+    $_SESSION['message'] = $output['message'];
   }else{
-    header('location: index.php?error=There was an error adding your product');
+    $_SESSION['errors'] = $output['errors'];
   }
+
+  header('location: index.php');
   //print json_encode($output);
 ?>
